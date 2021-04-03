@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+
+    <div class = "gameBox" id = "gameBox">
+        <div class = "questionBox">
+            <h1 class = "question" id = "question">What is 5 + 5?</h1>
+        </div>
+
+        <div class = "answerBox">
+            <div class = "answerPart">12</div>
+            <div class = "answerPart">10</div>
+            <div class = "answerPart">14</div> 
+            <div class = "answerPart">17</div>
+        </div>
+
+        <div class = "nextQuestion">
+            <button type = "button" id = "nextBtn">Next Question</button>
+        </div>
+
+        <div class = "queueText">
+            <span id = "firstNum">1</span>/<span id = "secondNum">10</span>
+        </div>
+
+    </div>
+
+    <div class = "finalResult" id = "finalResult">
+        <span>You have <span id = "correctNum">5</span> correct answers!</span>
+        <button type = "button" id = "restart">Restart</button>
+    </div>
+
+
+    <script src = "app.js"></script>
+    
+</body>
+</html>
